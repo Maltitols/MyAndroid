@@ -93,7 +93,6 @@ public class MainActivity extends AppCompatActivity
                 String timeStamp=
                         new SimpleDateFormat("yyyyMMdd_HHmmss")
                                 .format(new Date());
-                String imageFileName="JPEG_"+timeStamp+"_";
                 String path=getExternalFilesDir(null).getAbsolutePath();
                 photoFile=new File(path+"/"+timeStamp+".jpg");
                 //외부 저장장치에 저장할수 있도록 (디렉토리 얻어오기)
